@@ -19,7 +19,7 @@ const Hero = () => {
             Education
           </a>
 
-          <a href="#contacts" className="hover:bg-fonts w-20 p-1  ">
+          <a href="#contact" className="hover:bg-fonts w-20 p-1  ">
             Contacts
           </a>
         </div>

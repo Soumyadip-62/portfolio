@@ -1,6 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPhone,
+  faMailBulk,
+  faDownload,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faTwitter,
   faLinkedin,
@@ -21,6 +25,10 @@ const Contact = () => {
           <br></br>
           <a href="mailto:someone@example.com">
             Send an email <FontAwesomeIcon icon={faMailBulk} />
+          </a>{" "}
+          <br></br>
+          <a href="Resume.pdf" download>
+            Download Resume <FontAwesomeIcon icon={faDownload} />
           </a>
         </div>
 
