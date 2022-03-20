@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4ccf2f5f.css",
+    "main.js": "/portfolio/static/js/main.0ec6da30.js",
+    "static/js/787.fbf010eb.chunk.js": "/portfolio/static/js/787.fbf010eb.chunk.js",
+    "static/media/Crypto.png": "/portfolio/static/media/Crypto.39a6ce5fc51501a22eb8.png",
+    "static/media/IMG-20210421-WA0020.jpg": "/portfolio/static/media/IMG-20210421-WA0020.efd2f5b6398ff16d3fa9.jpg",
+    "static/media/Calculator.png": "/portfolio/static/media/Calculator.d1206edc4998882fa342.png",
+    "static/media/Tictac.png": "/portfolio/static/media/Tictac.9c9c293cc0944b913051.png",
+    "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/portfolio/index.html",
+    "static/media/circle-scatter-haikei.svg": "/portfolio/static/media/circle-scatter-haikei.e10aec49219d30023ed1.svg",
+    "main.4ccf2f5f.css.map": "/portfolio/static/css/main.4ccf2f5f.css.map",
+    "main.0ec6da30.js.map": "/portfolio/static/js/main.0ec6da30.js.map",
+    "787.fbf010eb.chunk.js.map": "/portfolio/static/js/787.fbf010eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ccf2f5f.css",
+    "static/js/main.0ec6da30.js"
+  ]
+}
