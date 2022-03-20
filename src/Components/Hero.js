@@ -61,8 +61,7 @@ const Hero = () => {
             </p>
             <p className="font-thin text-xl">
               I graduated last year with a BCA degree from VIvekanda
-              Mahavidyalaya with a 65.1% overall percentage. Currently working
-              as a{" "}
+              Mahavidyalaya. Currently working as a{" "}
               <span className="font-semibold" id="hero-text2">
                 Front End Developer at Think Again Lab
               </span>

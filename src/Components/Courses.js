@@ -9,7 +9,7 @@ const Courses = () => {
           <p class="text-2xl font-bold">Courses</p>
         </div>
         <div class="p-1 md:p-4 grid grid-cols-1 md:grid-cols-2 text-center md:text-left">
-          <div class="hover:bg-secondary  hover:text-white  hover:shadow-xl hover:shadow-black duration-300 p-2  md:p-8 m-1 mt-4  md:m-4">
+          <div class="hover:bg-secondary  hover:text-white  hover:shadow-xl hover:shadow-black duration-300 p-2  md:p-8 m-1 mt-4 shadow-md shadow-slate-900 rounded-xl md:m-4">
             <p class="font-semibold text-bgcom text-2xl pb-6 ">
               React Certification Course (Internshala):{" "}
             </p>
@@ -19,7 +19,7 @@ const Courses = () => {
               projects using it.{" "}
             </p>
           </div>
-          <div className="hover:bg-secondary  hover:text-white hover:shadow-xl hover:shadow-black  duration-300 p-2  md:p-8 m-1 mt-4  md:m-4">
+          <div className="hover:bg-secondary  hover:text-white hover:shadow-xl hover:shadow-black  duration-300 p-2  md:p-8 m-1 mt-4 shadow-md shadow-slate-900 rounded-xl md:m-4">
             <p class="font-semibold text-bgcom text-2xl pb-6 ">
               Python Certification Course (Leafy Solutions):
             </p>
