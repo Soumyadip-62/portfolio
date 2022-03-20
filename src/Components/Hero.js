@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImge from "../images/IMG-20210421-WA0020.jpg";
-
+import { Link } from "react-scroll";
 const Hero = () => {
   return (
     <>
@@ -9,25 +9,53 @@ const Hero = () => {
         id="hero"
       >
         <div id="nav" className="grid grid-cols-1">
-          <a href="#" className="hover:bg-fonts w-20 p-1">
+          <Link
+            to="hero-text"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            className="hover:bg-fonts w-20 p-1"
+          >
             About
-          </a>
-          <a href="#projects" className="hover:bg-fonts w-20 p-1  ">
+          </Link>
+          <Link
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+            className="hover:bg-fonts w-20 p-1  "
+          >
             Projects
-          </a>
-          <a href="#education" className="hover:bg-fonts w-20 p-1  ">
+          </Link>
+          <Link
+            to="education"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+            className="hover:bg-fonts w-20 p-1  "
+          >
             Education
-          </a>
+          </Link>
 
-          <a href="#contact" className="hover:bg-fonts w-20 p-1  ">
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-10}
+            duration={500}
+            className="hover:bg-fonts w-20 p-1  "
+          >
             Contacts
-          </a>
+          </Link>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 md:place-items-center mt-3">
           <div data-aos="fade-right">
             <p
               id="hero-text"
-              className="font-bold text-6xl mb-2 drop-shadow-xl shadow-fonts"
+              className="font-bold text-4xl md:text-6xl mb-2 drop-shadow-xl shadow-fonts"
             >
               HI, I'm Soumyadip Pandit
             </p>
@@ -48,7 +76,7 @@ const Hero = () => {
             <img
               src={HeroImge}
               alt=""
-              className="h-80 w-80 mt-12 mb-10 rounded-full shadow-lg drop-shadow-lg shadow-fonts"
+              className=" sm:w-80  w-auto md:h-80 md:w-80 mt-12 mb-10 rounded-full shadow-lg drop-shadow-lg shadow-fonts"
             />
           </div>
         </div>

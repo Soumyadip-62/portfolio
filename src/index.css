@@ -21,6 +21,9 @@ code {
 #nav {
   font-family: "Hubballi", cursive;
 }
+.project-heading {
+  text-shadow: 2px 2px #000000;
+}
 
 #education {
   background-image: url("./images/circle-scatter-haikei.svg");
@@ -63,6 +66,7 @@ code {
 .edu {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  background-color: rgb(216, 217, 218);
 }
 .contact {
   background-color: #4d3427;

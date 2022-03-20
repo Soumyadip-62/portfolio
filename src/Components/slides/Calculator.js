@@ -14,13 +14,14 @@ const Calculator = () => {
         <header className="text-4xl font-semibold p-4">
           Calculator With React
         </header>
-        <div className="w-96 p-4">
-          <p className="text-xl">
+        <div className="w-64 p-4">
+          <p className="text-xl text-clip overflow-hidden">
             This is a simple calculator built using React. It also has a Button
             to toggle between Dark and Light mode.
           </p>
           <a
             href="https://soumyadip-62.github.io/calculator"
+            target="_blank"
             className="text-black font-thin mt-6 underline"
           >
             See website

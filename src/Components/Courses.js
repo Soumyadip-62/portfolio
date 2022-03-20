@@ -4,12 +4,12 @@ const Courses = () => {
   return (
     <div className="text-fonts">
       {" "}
-      <div class=" pt-6 pr-6 pl-6 pb-0 ">
+      <div class=" pt-6 pr-1 pl-1 md:pr-6 md:pl-6 pb-0 ">
         <div class="flex justify-center item-start">
           <p class="text-2xl font-bold">Courses</p>
         </div>
-        <div class=" p-4 grid grid-cols-1 md:grid-cols-2 text-center md:text-left">
-          <div class="hover:bg-secondary hover:text-white  hover:shadow-xl hover:shadow-black duration-300 p-8 m-4">
+        <div class="p-1 md:p-4 grid grid-cols-1 md:grid-cols-2 text-center md:text-left">
+          <div class="hover:bg-secondary  hover:text-white  hover:shadow-xl hover:shadow-black duration-300 p-2  md:p-8 m-1 mt-4  md:m-4">
             <p class="font-semibold text-bgcom text-2xl pb-6 ">
               React Certification Course (Internshala):{" "}
             </p>
@@ -19,7 +19,7 @@ const Courses = () => {
               projects using it.{" "}
             </p>
           </div>
-          <div className="hover:bg-secondary hover:text-white hover:shadow-xl hover:shadow-black  duration-300 p-8 m-4">
+          <div className="hover:bg-secondary  hover:text-white hover:shadow-xl hover:shadow-black  duration-300 p-2  md:p-8 m-1 mt-4  md:m-4">
             <p class="font-semibold text-bgcom text-2xl pb-6 ">
               Python Certification Course (Leafy Solutions):
             </p>

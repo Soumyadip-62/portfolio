@@ -15,7 +15,8 @@ const Contact = () => {
     <>
       <div
         id="contact"
-        className="pt-6 pr-20 pl-20 m-6 mb-0 h-64 text-white text-center md:text-justify grid grid-cols-1 md:grid-flow-col"
+        className="overflow-clip pt-6 pr-4 pl-4 md:pr-20 md:pl-20 m-6 mt-0 mb-0 h-auto
+        pb-4 text-white text-center md:text-justify grid grid-cols-1 md:grid-flow-col"
       >
         <div className="">
           <header className="font-bold text-2xl pb-4 ">Contact</header>

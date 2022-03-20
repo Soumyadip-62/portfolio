@@ -14,13 +14,14 @@ const TicTacToe = () => {
         <header className="text-4xl font-semibold p-4">
           TicTacToe Application
         </header>
-        <div className="w-96 p-4">
+        <div className="w-64 p-4">
           <p className="text-xl">
             This is a simple tic tac toe game that I made using React. This
             project is part of my online React training course.
           </p>
           <a
             href="https://tictaccaspian.surge.sh/"
+            target="_blank"
             className="text-black font-thin mt-6 underline"
           >
             See Website

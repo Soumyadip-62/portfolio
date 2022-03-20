@@ -26,8 +26,8 @@ const Projects = () => {
       {" "}
       <div>
         <Slider {...settings}>
-          <div className="">
-            <p className="font-bold text-6xl w-[40%]">
+          <div className="p-3">
+            <p className="font-bold text-6xl w-[40%] project-heading">
               Projects that I built myself
             </p>
             <p className="font-semibold pt-4 text-lg">Swipe right {":-)"}</p>
