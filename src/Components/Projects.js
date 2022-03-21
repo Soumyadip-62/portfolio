@@ -15,6 +15,7 @@ const Projects = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     touchMove: true,
+    arrows: false,
   };
 
   return (

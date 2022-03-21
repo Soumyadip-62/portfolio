@@ -24,7 +24,7 @@ const Contact = () => {
             Talk to me! <FontAwesomeIcon icon={faPhone} />
           </a>
           <br></br>
-          <a href="mailto:someone@example.com">
+          <a href="mailto:panditsoumya35@gmail.com">
             Send an email <FontAwesomeIcon icon={faMailBulk} />
           </a>{" "}
           <br></br>

@@ -60,7 +60,7 @@ const Hero = () => {
               HI, I'm Soumyadip Pandit
             </p>
             <p className="font-thin text-xl">
-              I graduated last year with a BCA degree from VIvekanda
+              I graduated last year with a BCA degree from VIvekananda
               Mahavidyalaya. Currently working as a{" "}
               <span className="font-semibold" id="hero-text2">
                 Front End Developer at Think Again Lab
