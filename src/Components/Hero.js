@@ -5,29 +5,32 @@ const Hero = () => {
   return (
     <>
       <div
-        className=" p-10 text-white flex-col justify-center items-center"
+        className="p-10 text-white flex-col  justify-center items-center"
         id="hero"
       >
-        <div id="nav" className="grid grid-cols-1">
-          <Link
-            to="hero-text"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-            className="hover:bg-fonts w-20 p-1"
-          >
-            About
-          </Link>
+        <div
+          id="nav"
+          className="flex justify-start md:justify-between gap-4 p-1 md:text-xl"
+        >
           <Link
             to="projects"
             spy={true}
             smooth={true}
             offset={-150}
             duration={500}
-            className="hover:bg-fonts w-20 p-1  "
+            className="hover:font-semibold hover:text-fonts   "
           >
             Projects
+          </Link>
+          <Link
+            to="hero-text"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            className="hover:font-semibold hover:text-fonts "
+          >
+            Skills
           </Link>
           <Link
             to="education"
@@ -35,7 +38,7 @@ const Hero = () => {
             smooth={true}
             offset={-150}
             duration={500}
-            className="hover:bg-fonts w-20 p-1  "
+            className="hover:font-semibold hover:text-fonts   "
           >
             Education
           </Link>
@@ -46,7 +49,7 @@ const Hero = () => {
             smooth={true}
             offset={-10}
             duration={500}
-            className="hover:bg-fonts w-20 p-1  "
+            className="hover:font-semibold hover:text-fonts   "
           >
             Contacts
           </Link>

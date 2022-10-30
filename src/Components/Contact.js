@@ -15,8 +15,8 @@ const Contact = () => {
     <>
       <div
         id="contact"
-        className="overflow-clip pt-6 pr-4 pl-4 md:pr-20 md:pl-20 m-6 mt-0 mb-0 h-auto
-        pb-4 text-white text-center md:text-justify grid grid-cols-1 md:grid-flow-col"
+        className="overflow-clip pt-6 p2-4 pl-2 md:pr-20 md:pl-20 m-4 mt-0 mb-0 h-auto
+        pb-4 text-white text-start md:text-justify grid grid-cols-2 gap-4 md:grid-flow-col"
       >
         <div className="">
           <header className="font-bold text-2xl pb-4 ">Contact</header>
@@ -36,7 +36,7 @@ const Contact = () => {
         <div className="">
           <header className="font-bold text-2xl pb-4">Social</header>
 
-          <ul className="grid gap-2">
+          <ul className="grid text-start ">
             <a
               href="https://www.linkedin.com/in/soumyadip-pandit-8a2b881a3/"
               target="_blank"

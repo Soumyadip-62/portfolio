@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "../../images/Crypto.png";
 const Crypto = () => {
+
+  
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-3">
       <div className="p-4 flex-initial md:w-[70%] w-full col-span-2">
@@ -24,7 +27,7 @@ const Crypto = () => {
             target="_blank"
             className="text-black font-thin mt-6 underline"
           >
-            Source Code
+            Source Code 
           </a>
         </div>
         <div className="p-4 flex gap-4">
