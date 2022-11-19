@@ -35,6 +35,9 @@ const Projects = () => {
             <p className="font-semibold pt-4 text-lg">Swipe right {":-)"}</p>
           </div>
           <div>
+            <BudgetTracker />
+          </div>
+          <div>
             <Calculator />
           </div>
           <div>
@@ -42,9 +45,6 @@ const Projects = () => {
           </div>
           <div>
             <TicTacToe />
-          </div>
-          <div>
-            <BudgetTracker />
           </div>
         </Slider>
       </div>

@@ -23,7 +23,7 @@ const Hero = () => {
             Projects
           </Link>
           <Link
-            to="hero-text"
+            to="skills"
             spy={true}
             smooth={true}
             offset={-100}
@@ -56,22 +56,32 @@ const Hero = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 md:place-items-center mt-3">
           <div data-aos="fade-right">
-            <p
-              id="hero-text"
-              className="font-bold text-4xl md:text-6xl mb-2 drop-shadow-xl shadow-fonts"
-            >
+            <p className="font-normal text-2xl md:text-2xl mb-2 drop-shadow-xl shadow-fonts">
               HI, I'm Soumyadip Pandit
             </p>
-            <p className="font-thin text-xl">
-              I graduated last year with a BCA degree from VIvekananda
-              Mahavidyalaya. Currently working as a{" "}
-              <span className="font-semibold" id="hero-text2">
-                Front End Developer at Think Again Lab
-              </span>
-              . I am equipped with knowledge of web development with React. I
-              have developed a few projects myself. I am looking forward to
-              learning more and building a prosperous career in this field.
+
+            <p id="hero-text" className="font-semibold text-4xl">
+              working as a Front End Developer at{" "}
+              <a
+                href="https://thinkagainlab.com/"
+                target="_blank"
+                className="font-semibold "
+                id="hero-text2"
+              >
+                Think Again Lab
+              </a>
+              .
             </p>
+            <p className="font-thin text-md md:text-md mb-2 drop-shadow-xl shadow-fonts">
+              JavaScript, React, Next, Node, Mongodb
+            </p>
+            <a
+              href="https://www.linkedin.com/in/soumyadip-pandit-8a2b881a3/"
+              target="_blank"
+              className="text-yellow-100 font-thin mt-8 underline"
+            >
+              Find me on LinkedIn {">>"}
+            </a>
           </div>
 
           <div className="image-bg" data-aos="fade-left">
