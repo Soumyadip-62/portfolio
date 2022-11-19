@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Calculator from "./slides/Calculator";
 import Crypto from "./slides/Crypto";
 import TicTacToe from "./slides/TicTacToe";
+import BudgetTracker from "./slides/Mern";
 const Projects = () => {
   const settings = {
     dots: true,
@@ -41,6 +42,9 @@ const Projects = () => {
           </div>
           <div>
             <TicTacToe />
+          </div>
+          <div>
+            <BudgetTracker />
           </div>
         </Slider>
       </div>
