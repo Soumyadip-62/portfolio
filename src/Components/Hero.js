@@ -20,7 +20,7 @@ const Hero = () => {
             duration={500}
             className="hover:font-semibold hover:text-fonts   "
           >
-            Projects
+            Experience
           </Link>
           <Link
             to="skills"
@@ -30,7 +30,7 @@ const Hero = () => {
             duration={500}
             className="hover:font-semibold hover:text-fonts "
           >
-            Skills
+            Projects
           </Link>
           <Link
             to="education"
@@ -61,7 +61,7 @@ const Hero = () => {
             </p>
 
             <p id="hero-text" className="font-semibold text-4xl">
-              working as a Front End Developer at{" "}
+              Working as a Front End Developer at{" "}
               <a
                 href="https://thinkagainlab.com/"
                 target="_blank"
@@ -80,7 +80,7 @@ const Hero = () => {
               target="_blank"
               className="text-yellow-100 font-thin mt-8 underline"
             >
-              Find me on LinkedIn {">>"}
+              Find Me On LinkedIn {">>"}
             </a>
           </div>
 
