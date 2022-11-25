@@ -25,15 +25,17 @@ const Projects = () => {
       id="projects"
       data-aos="fade-up"
     >
-      {" "}
+      <div className="text-center text-2xl font-sans font-bold mb-6">
+        <header>My Projects</header>
+      </div>{" "}
       <div>
         <Slider {...settings}>
-          <div className="p-3">
+          {/* <div className="p-3">
             <p className="font-bold text-6xl w-[40%] project-heading">
               Projects that I built myself
             </p>
             <p className="font-semibold pt-4 text-lg">Swipe right {":-)"}</p>
-          </div>
+          </div> */}
           <div>
             <BudgetTracker />
           </div>

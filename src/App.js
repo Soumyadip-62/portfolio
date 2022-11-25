@@ -7,6 +7,7 @@ import "./index.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import Skills from "./Components/Skills";
+import Experience from "./Components/Experience";
 // ..
 AOS.init({
   // Global settings:
@@ -32,6 +33,9 @@ function App() {
   return (
     <div>
       <Hero />
+      <div id="experience">
+        <Experience />
+      </div>
       <div className="projects">
         {" "}
         <Projects />
@@ -40,7 +44,7 @@ function App() {
         <Education />
       </div>
 
-      <Skills/>
+      <Skills />
       <div className="contact">
         <Contact />
       </div>
