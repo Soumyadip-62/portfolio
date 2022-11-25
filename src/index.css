@@ -40,6 +40,12 @@ code {
     rgb(218, 101, 47) 72%
   );
 }
+
+#experience {
+   background-color: rgb(216, 217, 218);
+
+
+}
 #contact {
   font-family: "Hubballi", cursive;
 }
@@ -73,10 +79,10 @@ code {
   background-color: #4d3427;
 }
 
-#skills{
+#skills {
   background-color: #8d431f;
 }
-.logoimg{
-height: 60px;
-width: 120px;
+.logoimg {
+  height: 60px;
+  width: 120px;
 }
