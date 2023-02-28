@@ -28,7 +28,7 @@ const Contact = () => {
             Send an email <FontAwesomeIcon icon={faMailBulk} />
           </a>{" "}
           <br></br>
-          <a href="Resume.pdf" download className="font-semibold">
+          <a href="SoumyaDip Pandit Updated Resume.docx" download className="font-semibold">
             Download Resume <FontAwesomeIcon icon={faDownload} />
           </a>
         </div>
