@@ -11,24 +11,25 @@ import bootstrapLogo from "../images/Logos/bootstrap-5-seeklogo.com.svg";
 import npmLogo from "../images/Logos/npm-seeklogo.com-2.svg";
 import githubLogo from "../images/Logos/github-seeklogo.com.svg";
 import tailwindLogo from "../images/Logos/tailwind-css-wordmark-seeklogo.com.svg";
+import tslogo from "../images/Logos/typescript.svg";
 
 const Skills = () => {
   return (
     <div id="skills" className="md:p-12 p-5  ">
       <div className="flex flex-wrap md:gap-10 gap-3 justify-center ">
-        <img src={htmlLogo} alt=" logo" className="logoimg" />
-        <img src={cssLogo} alt=" logo" className="logoimg" />
-        <img src={JsLogo} alt=" logo" className="logoimg" />
-        <img src={ReactLogo} alt=" logo" className="logoimg" />
-        <img src={NextLogo} alt=" logo" className="logoimg" />
-        <img src={ExpressLogo} alt=" logo" className="logoimg" />
-        <img src={NodeLogo} alt=" logo" className="logoimg" />
-        <img src={mongoLogo} alt=" logo" className="logoimg" />
-        <img src={bootstrapLogo} alt=" logo" className="logoimg" />
-        <img src={npmLogo} alt=" logo" className="logoimg" />
-        <img src={githubLogo} alt=" logo" className="logoimg" />
-        <img src={tailwindLogo} alt=" logo" className="logoimg" />
-        
+        <img src={htmlLogo} alt="html" className="logoimg" />
+        <img src={cssLogo} alt=" css" className="logoimg" />
+        <img src={JsLogo} alt=" javascript" className="logoimg" />
+        <img src={tslogo} alt=" typescript" className="logoimg" />
+        <img src={ReactLogo} alt=" react" className="logoimg" />
+        <img src={NextLogo} alt=" nextjs" className="logoimg" />
+        <img src={ExpressLogo} alt=" express" className="logoimg" />
+        <img src={NodeLogo} alt=" nodejs" className="logoimg" />
+        <img src={mongoLogo} alt=" mongodb" className="logoimg" />
+        <img src={bootstrapLogo} alt=" bootstrap" className="logoimg" />
+        <img src={npmLogo} alt=" npm" className="logoimg" />
+        <img src={githubLogo} alt=" github" className="logoimg" />
+        <img src={tailwindLogo} alt=" tailwind" className="logoimg" />
       </div>
     </div>
   );

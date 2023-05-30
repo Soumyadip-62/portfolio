@@ -4,13 +4,38 @@ import {
   faPhone,
   faMailBulk,
   faDownload,
+  faContactCard,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faTwitter,
   faLinkedin,
   faGit,
 } from "@fortawesome/free-brands-svg-icons";
+import { contact } from "./savecontact";
+
+export const handleDownloadContact = () => {
+  const vcard = `BEGIN:VCARD
+VERSION:3.0
+N:${contact.name}
+TEL;TYPE=CELL;TYPE=VOICE:${contact.phone}
+EMAIL:${contact.email}
+END:VCARD`;
+
+  const blob = new Blob([vcard], { type: "text/vcard" });
+  const url = window.URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.setAttribute("download", "Soumyadip.vcf");
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  window.URL.revokeObjectURL(url);
+};
 const Contact = () => {
+
+  
+
+
   return (
     <>
       <div
@@ -28,25 +53,29 @@ const Contact = () => {
             Send an email <FontAwesomeIcon icon={faMailBulk} />
           </a>{" "}
           <br></br>
-          <a href="SoumyaDip Pandit Updated Resume.docx" download className="font-semibold">
+          <a
+            href="SoumyaDip_Pandit_Resume.docx"
+            download
+            className="font-semibold"
+          >
             Download Resume <FontAwesomeIcon icon={faDownload} />
           </a>
+          <br></br>
         </div>
 
         <div className="">
           <header className="font-bold text-3xl pb-4">Social</header>
 
           <ul className="grid text-start font-semibold">
+            <button onClick={handleDownloadContact} className="font-semibold">
+              Save Contact <FontAwesomeIcon icon={faContactCard} />
+            </button>
             <a
               href="https://www.linkedin.com/in/soumyadip-pandit-8a2b881a3/"
               target="_blank"
             >
               {" "}
               LinkedIn <FontAwesomeIcon icon={faLinkedin} />
-            </a>
-            <a href="https://twitter.com/Soumyad51323508" target="_blank">
-              {" "}
-              Twiter <FontAwesomeIcon icon={faTwitter} />
             </a>
 
             <a href="https://github.com/Soumyadip-62" target="_blank">
@@ -57,7 +86,7 @@ const Contact = () => {
         </div>
       </div>
       <p class="text-center p-4 font-thin text-gray-200 text-xs">
-        ©2022 Portfolio by Soumyadip Pandit. All rights reserved.
+        ©2023 Portfolio by Soumyadip Pandit. All rights reserved.
       </p>
     </>
   );
